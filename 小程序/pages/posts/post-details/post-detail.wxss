@@ -1,0 +1,76 @@
+/* pages/posts/post-details/post-detail.wxss */
+page{
+  background: white;
+}
+.title-img{
+  width: 750rpx;
+  height: 450rpx;
+}
+.title{
+  padding: 0 35rpx;
+  
+}
+.head{
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+}
+.word{
+  font-size: 12px;
+  font-weight: 300;
+  vertical-align: middle;
+  color: gray;
+}
+.where{
+  margin: 0 20rpx;
+}
+.fb{
+  margin-right: 20rpx;
+}
+.title-word{
+  font-size: 20px;
+  color: rgb(70,95,125);
+  font-weight: bold;
+}
+.content{
+  position: relative;
+  height: 160rpx;
+  margin-top: 40rpx;
+  border-bottom: 2px solid gainsboro;
+}
+.common{
+  width: 85rpx;
+  height: 85rpx;
+  position: absolute;
+}
+.collection{
+  
+  right:100rpx;
+  bottom:-35rpx;
+}
+.share{
+  right: -2rpx;
+  bottom: -35rpx;
+}
+.art{
+  margin-top: 65rpx;
+  padding: 0 35rpx;
+  font-size: 12px;
+  color: gray;
+  font-weight: 300
+  
+}
+.art-title{
+  display: inline-block;
+  margin-bottom: 55rpx;
+}
+.art-word{
+  line-height: 23rpx;
+}
+.music{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  top: 175rpx;
+  left: 320rpx;
+}

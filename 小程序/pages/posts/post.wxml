@@ -1,0 +1,18 @@
+<!--pages/posts/post.wxml-->
+<import src="post-item/post-item-templete.wxml"/>
+<view>
+  <swiper class='swiperstyle' indicator-dots="{{true}}" indicator-color="white" autoplay="{{true}}" interval="5000">
+  <block wx:for="{{imgurl}}">
+  
+    <swiper-item catchtap="navigatorPage" data-post-id="{{index}}">
+      <image src='{{item}}' class='myimg'></image>
+    </swiper-item>
+  </block>
+    
+  </swiper>
+  <view class='content' wx:for="{{postList}}">
+    <view catchtap='showDetail' data-post-id='{{item.id}}'>
+    <template is="post-item" data="{{item}}"/>
+    </view>
+  </view>
+</view>

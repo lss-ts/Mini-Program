@@ -1,0 +1,31 @@
+/**index.wxss**/
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.myimg{
+  width: 160rpx;
+  height: 160rpx;
+  margin-top: 180rpx;
+  margin-bottom: 100rpx;
+}
+.hellotest{
+  font-weight: bold;
+  margin-bottom: 210rpx;
+}
+.start-view{
+  width: 250rpx;
+  
+  border: 1px solid rgb(64, 95, 28);
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 10rpx;
+}
+.mini-text{
+  font-size: 12px;
+  color: rgb(64, 95, 28);
+  
+}

@@ -1,0 +1,10 @@
+<template name='post-item'>
+  <view class='header'><image src='{{item.headImg}}' class='head'></image> <text class='time'>{{item.addtime}}</text></view>
+    <text class='title'>{{item.title}}</text>
+     <image src='{{item.contentImg}}' class='title-img'></image> 
+     <text class='contents'>{{item.content}}</text>
+    <view class='fot'>
+       <image src='/images/icon/chat1.png' class='coin1'></image><text class='num'>{{item.look}}</text>
+       <image src='/images/icon/view.png' class='coin'></image><text class='num'>{{item.read}}</text>
+  </view>
+</template>

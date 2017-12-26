@@ -1,0 +1,96 @@
+/* pages/movies/movie.wxss */
+page{
+  background:#f2f2f2;  
+ /* background: white; */
+}
+.search{
+  padding-left: 20rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.search_img{
+  width: 35rpx;
+  height: 35rpx;
+  
+}
+.search_input{
+  position: absolute;
+  top: 0;
+  width:450rpx;
+  height:80rpx;
+  left: 100rpx;
+}
+.place{
+  font-size: 16px;
+  text-align: center;
+  line-height: 80rpx;
+  color: gainsboro;
+  font-weight: 300;
+}
+.movie_list{
+  overflow: hidden;
+  padding-top: 35rpx;
+  background: white;
+}
+.movie_head{
+  margin-bottom: 35rpx;
+}
+.movie_title{
+  font-size: 16px;
+  color: gray;
+  font-weight: 300; 
+  margin-right: 490rpx;
+   
+}
+.more{
+ 
+  font-size: 16px;
+  font-weight: 300; 
+  color: #4d6fb4;
+  vertical-align: middle;
+}
+.movie{
+  float: left;
+  margin-left: 25rpx;
+  margin-right: 25rpx
+}
+.movie_img{
+  width: 200rpx;
+  height: 270rpx;
+}
+.name{
+  font-size: 14px;
+  display: block;
+  margin-top:25rpx;
+  font-weight: 300;
+  color: gray; 
+}
+.movie_star{
+  margin-top:10rpx;
+}
+.star{
+  width: 12px;
+  height: 12px;
+}
+.num{
+  font-size:14px; 
+  color: #4d6fb4;
+  margin-left: 20rpx; 
+}
+.right{
+  width: 14rpx;
+  height: 20rpx;
+  vertical-align: middle;
+  margin-left: 10rpx;
+}
+.list{
+  margin-bottom: 30rpx;
+}
+.xx{
+  height: 30rpx;
+  width: 30rpx;
+  margin-left: 620rpx; 
+}
+.searchcontent{
+  overflow: hidden;
+}

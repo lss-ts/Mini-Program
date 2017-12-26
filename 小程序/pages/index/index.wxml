@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class='container'>
+<!--相对路径 ../../images/avatar/4.png -->
+<!--绝对路径  /images/avatar/4.png-->
+  <image src='/images/avatar/2.png' class='myimg'></image>
+  <text class='hellotest'>慢生活</text>
+  <view class='start-view' catchtap='nextpage'>
+    <text class='mini-text'>开启小程序之旅</text> 
+  </view>
+  
+</view>

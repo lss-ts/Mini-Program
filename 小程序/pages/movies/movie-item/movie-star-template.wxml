@@ -1,0 +1,9 @@
+<template name="movieStar">
+  <view class='movie_star'>
+        <block wx:for="{{formatStars}}">
+           <image src='/images/icon/star.png' class='star' wx:if="{{item==1}}"></image>
+           <image src='/images/icon/none-star.png' class='star' wx:if="{{item==0}}"></image>
+        </block>
+        <text class='num'>{{stars}}</text>
+  </view>
+</template>

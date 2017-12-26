@@ -1,0 +1,24 @@
+<!--pages/posts/post-details/post-detail.wxml-->
+<view>
+  <image src='{{musicImgUrl}}' class='music' catchtap='playMusic'></image> 
+  <image src='{{contentImg}}' class='title-img'></image>
+  <view class='title'>
+    <image src='{{headImg}}' class='head'></image>
+    <text class='where word'>知乎</text>
+    <text class='fb word'>发表于</text>
+    <text class='time word'>{{addtime}}</text>
+    <view class='content'>
+      <text class='title-word'>{{title}}</text>
+      <image src='/images/icon/collection.png' class='common collection' catchtap='collected'wx:if="{{judge}}"></image>
+      <image src='/images/icon/collection-anti.png' class='common collection' catchtap='collected' wx:if="{{!judge}}"></image>
+      <image src='/images/icon/share.png' class='common share' catchtap='showShare'></image>
+    </view>
+  </view>
+  <view class='art'>
+    <text class='art-title'>1 引言</text>
+    <view>
+      <text class='art-word'>{{content}}</text>
+    </view>
+  </view>
+</view>
+

@@ -1,0 +1,27 @@
+<!--pages/movies/movie.wxml-->
+<import src="movie-item/movie-list-template.wxml"/>
+<import src="movie-item/movie-grid-template.wxml"/>
+ <!-- <import src="movie-item/movie-star-template.wxml"/>  -->
+<view>
+  <view class='search'>
+    <image src='/images/icon/search.png' class='search_img'></image>
+    <input type='text' placeholder='釜山行、夏有乔木雅望天堂' class='search_input' placeholder-class='place' catchchange="getInputData" catchtap='searchMovie'></input>
+    <image src='/images/icon/xx.png' class='xx' catchtap='closeSearch' wx:if="{{is_search}}"></image>
+  </view>
+  <view wx:if="{{is_search}}" class='searchcontent'>
+  <template is="movieGrid" data="{{movies:data}}"/>
+</view>
+<view wx:if="{{!is_search}}">
+  <view class='list'>
+    <template is="movieList" data="{{...in_theaters}}"/>
+  </view>
+ <view class='list'>
+    <template is="movieList" data="{{...coming_soon}}"/>
+  </view>
+  <view class='list'>
+    <template is="movieList" data="{{...top250}}"/>
+  </view>
+
+</view>
+  
+</view>

@@ -1,0 +1,50 @@
+<!--pages/movies/details/detail.wxml-->
+<import src="../movie-item/movie-star-template.wxml"/>
+<view>
+<image src='{{showData[0].images}}' class='head_img'></image>
+<image src='{{showData[0].images}}' class='head_imgs'></image>
+<view class='head_title'>
+  <text class='head_name'>{{showData[0].title}}</text>
+  <text class='head_year'>{{showData[0].countries}}.{{showData[0].year}}</text>
+  <view>
+    <text class='head_num'>{{showData[0].collect_count}}</text>
+    <text class='head_pr'>人喜欢</text>
+    <text class='head_num'>{{showData[0].comments_count}}</text>
+    <text class='head_pr'>人评论</text>
+  </view>
+</view>
+<view class='content'>
+    <text class='content_title'>{{showData[0].title}}</text>
+  
+    <view class="stars">
+      <template is="movieStar" data="{{stars:stars,formatStars:formatStars}}"></template>
+    </view>
+    <view>
+      <text class='pf'>导演：</text>
+      <text class='pf'>{{showData[0].directors}}</text>
+    </view>
+    <view>
+      <text class='pf'>影人：</text>
+      <text class='pf' wx:for="{{showData[0].casts}}">{{item.name}}</text>
+    </view>
+    <view>
+      <text class='pf'>类型：</text>
+      <text class='pf' wx:for="{{showData[0].genres}}">{{item}}</text>
+    </view> 
+</view>
+<view class='contents'>
+  <text class='contents_title'>剧情简介</text>
+  <text class='art'>
+    {{showData[0].summary}}
+  </text>
+</view>
+<view class='moviepeo'>
+  <text class="contents_title">影人</text>
+  <scroll-view scroll-x class='moviescroll'>
+    <view wx:for="{{showData[0].casts}}" class='people'>
+      <image src='{{item.imgurl}}' class='peo'></image>
+      <text class='name'>{{item.name}}</text>
+    </view>
+  </scroll-view>
+</view>
+</view>

@@ -1,0 +1,5 @@
+<!--pages/movies/mores/more.wxml-->
+<import src="../movie-item/movie-grid-template.wxml"/>
+<view catchtap='showDetail' data-movie-id="{{id}}">
+  <template is="movieGrid" data="{{movies:data}}"/>
+</view>

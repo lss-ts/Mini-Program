@@ -1,0 +1,42 @@
+/* pages/movies/mores/more.wxss */
+page{
+  background: white;
+}
+.movies{
+  float: left;
+  margin-top:20rpx; 
+   margin-right:20rpx;
+   margin-left: 20rpx; 
+}
+.movie_img{
+  width: 200rpx;
+  height: 270rpx;
+}
+.name{
+  font-size: 14px;
+  display: block;
+  margin-top:25rpx;
+  font-weight: 300;
+  color: gray; 
+}
+.movie_star{
+  margin-top:10rpx;
+}
+.star{
+  width: 12px;
+  height: 12px;
+}
+.num{
+  font-size:14px; 
+  color: #4d6fb4;
+  margin-left: 20rpx; 
+}
+.right{
+  width: 14rpx;
+  height: 20rpx;
+  vertical-align: middle;
+  margin-left: 10rpx;
+}
+.list{
+  margin-bottom: 30rpx;
+}

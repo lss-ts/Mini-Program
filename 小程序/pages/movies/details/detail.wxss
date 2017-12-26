@@ -1,0 +1,111 @@
+/* pages/movies/details/detail.wxss */
+ @import
+"../movie-item/movie-star-template.wxss"; 
+page{
+  background: white;
+}
+.head_img{
+  width: 750rpx;
+  height: 350rpx;
+  filter: blur(15px);  
+}
+.head_imgs{
+  width: 174rpx;
+  height: 238rpx;
+  position: absolute;
+  right: 40rpx;
+  top:190rpx;
+}
+.head_title{
+  position: absolute;
+  top: 0;
+  left: 40rpx;
+}
+.head_name{
+  margin-top: 60rpx;
+  margin-bottom: 46rpx;
+  color: white;
+  display: block;
+}
+.head_year{
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 45rpx;
+  display: block;
+
+}
+.head_num{
+  color: red;
+  font-size: 14px;
+  margin-right: 16rpx;
+  font-weight: 300;
+}
+.head_pr{
+  color: gray;
+  font-size:14px;
+  font-weight: 300;
+   margin-right: 16rpx; 
+}
+.content{
+  padding: 45rpx;
+  position: relative;
+  border-bottom: 1px solid gainsboro;
+}
+.content_title{
+  display: block;
+  color: gray;
+  font-size: 18px;
+}
+.stars{
+  position: absolute;
+  top: 85rpx;
+  left: 140rpx;
+}
+.pf{
+  font-size:12px;
+  color: gray;
+  font-weight: 300;
+   
+}
+.contents{
+  padding: 35rpx;
+  border-bottom: 1px solid gainsboro;
+}
+.contents_title{
+  font-size:14px;
+  font-weight: 300;
+  color: gray; 
+}
+.art{
+  font-size: 12px;
+  color: gray; 
+  font-weight: 300;
+  
+}
+.moviepeo{
+  height: 400rpx;
+  padding-top: 35rpx;
+  padding-left: 10rpx;
+  border-bottom: 1px solid gainsboro;
+  
+}
+.people{
+  display: inline-block;
+  margin-right: 40rpx;
+}
+.peo{
+  width:174rpx;
+  height:238rpx;
+  
+  
+}
+.moviescroll{
+  width:740rpx;
+  height: 350rpx;
+  white-space: nowrap;
+}
+.name{
+  display: block;
+  font-size: 12px;
+}

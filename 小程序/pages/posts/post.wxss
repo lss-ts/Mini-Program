@@ -1,0 +1,81 @@
+/* pages/posts/post.wxss */
+ @import
+"post-item/post-item-templete.wxss"; 
+page{
+  background:#f8f8f8;
+}
+.myimg{
+  width:750rpx; 
+  height: 584rpx;
+}
+.swiperstyle{
+  height: 584rpx;
+}
+.content{
+  border-top:1rpx solid #f9f9f9;
+  border-bottom: 1rpx solid #f9f9f9;
+  margin-bottom: 42rpx;
+  background: white;
+}
+.title{
+  margin-top: 15rpx;
+  margin-left: 15rpx;
+  font-weight: bold;
+  
+}
+.title-img{
+  margin-top: 30rpx;
+  width: 750rpx;
+  height: 340rpx;
+}
+.contents{
+  width: 730rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  font-size: 12px;
+  color: gray;
+  font-weight: 300;
+   margin-left: 10rpx;
+   margin-bottom: 22prx;
+   display: inline-block;
+}
+
+.coin{
+  vertical-align: middle;
+  width: 37rpx;
+  height: 37rpx;
+  margin-left: 34rpx;
+}
+.num{
+  font-size: 12px;
+  margin-top: -2rpx;
+  color: gray;
+  vertical-align: middle;
+  margin-left: 15rpx;
+
+}
+.coin1{
+  vertical-align: middle;
+   width: 37rpx;
+  height: 37rpx;
+  
+}
+.fot{
+  margin-left:20rpx; 
+}
+.head{
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+}
+.header{
+  margin-left: 15rpx;
+  margin-top: 10rpx;
+  margin-bottom: 28rpx;
+}
+.time{
+  margin-left: 15rpx;
+  font-size:12px;
+  color: gray;
+  vertical-align: middle;
+}
